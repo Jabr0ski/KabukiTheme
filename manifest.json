@@ -1,21 +1,33 @@
 {
-    "name": "Painted Kabuki",
-    "manifest_version": 2,
-    "version": "3.2",
-    "theme": {
-        "images": {
-            "theme_frame": "Kabuki_PersonaFF_HeaderV3.png"
-        },
-        "colors": {
-            "frame": "rgb(0, 162, 255)",
-            "tab_background_text": "rgb(255, 255, 255)",
-            "toolbar": "rgba(255, 255, 255, 0.65)",
-            "bookmark_text": "rgb(0, 0, 0)",
-            "toolbar_field": "rgb(255, 255, 255)",
-            "toolbar_field_text": "rgb(0, 0, 0)"
-        },
-        "properties":{
-            "tab_background_text": "text-shadow: 0px 0px 0px;"
-        }
+  "manifest_version": 2,
+  "version": "3.5",
+  "name": "Painted Kabuki",
+  "theme": {
+    "images": {
+      "additional_backgrounds": [
+        "images/banner.png"
+      ]
+    },
+    "properties": {
+      "additional_backgrounds_alignment": [
+        "right top"
+      ],
+      "additional_backgrounds_tiling": [
+        "repeat"
+      ],
+	  "tab_background_text": "text-shadow: 0px 0px 0px;"
+    },
+    "colors": {
+      "toolbar": "rgba(255, 255, 255, 0.65)",
+      "toolbar_text": "rgb(0, 0, 0)",
+      "frame": "rgb(0, 162, 255)",
+      "tab_background_text": "rgb(255, 255, 255)",
+      "toolbar_field": "rgb(255, 255, 255)",
+      "toolbar_field_text": "rgb(0, 0, 0)",
+      "tab_line": "rgb(0, 0, 0)",
+      "popup": "rgb(255, 255, 255)",
+      "popup_text": "rgb(0, 0, 0)",
+      "tab_loading": "rgb(0, 0, 0)"
     }
+  }
 }
